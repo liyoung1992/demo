@@ -1,0 +1,103 @@
+.cu_page{
+    overflow: hidden;
+}
+.cu_page ul li{
+    float: left;
+    overflow: hidden;
+    margin-right: 3px;
+    font-size: 14px;
+    color:#595959;
+    line-height: 22px;
+}
+.cu_page ul li a{
+    display: block;
+    width:42px;
+    height: 22px;
+    line-height: 20px;
+    text-align: center;
+    color:#454545;
+    background: #ebebeb;
+    border:1px solid #dbdbdb;
+    font-size: 11px;
+    -webkit-text-size-adjust:none;
+}
+.cu_page ul li a.cuur,.cu_page ul li a:hover{
+    color:#fff;
+    background: #39a3e6;
+    border:1px solid #288dd4;
+}
+.cu_page ul li a.cu_prev,.cu_page ul li a.cu_prev:hover,.cu_page ul li a.cu_next,.cu_page ul li a.cu_next:hover{
+    width:18px;
+    border:none;
+    background: transparent;
+    position: relative;
+}
+
+.cu_page ul li a.cu_prev:before{
+    position: absolute;
+    content: '';
+    top:3px;
+    left: -8px;
+    border: 8px solid transparent;
+    border-right-color: #a5a5a5;
+}
+.cu_page ul li a.cu_prev:after{
+
+    content: '';
+    top:3px;
+    left:-7px;
+    border: 8px solid transparent;
+    border-right-color: #fff;
+}
+.cu_page ul li a.cu_next:before{
+    position: absolute;
+    content: '';
+    top:3px;
+    right: -8px;
+    border: 8px solid transparent;
+    border-left-color: #a5a5a5;
+}
+.cu_page ul li a.cu_next:after{
+ 
+    content: '';
+    top:3px;
+    right:-7px;
+    border: 8px solid transparent;
+    border-left-color: #fff;
+}
+.cu_page ul li a.cu_next{
+    margin-right: 5px;
+}
+.cu_page ul li span.cu_spct{
+    display: block;
+    width:22px;
+    height: 22px;
+    text-align: center;
+    line-height: 14px;
+    color:#9a9a9a;
+}
+.cu_page ul li.cu_palast{
+    overflow: hidden;
+    margin-left:10px;
+}
+.cu_page ul li.cu_palast span{
+    float: left;
+    font-size: 14px;
+    color:#595959;
+}
+.cu_page ul li.cu_palast input[type=text]{
+    float: left;
+    width:42px;
+    height: 22px;
+    border:1px solid #dbdbdb;
+    text-align: center;
+    font-size: 9px;
+    -webkit-text-size-adjust:none;
+    margin:0 6px;
+}
+.cu_page ul li.cu_palast a{
+    float: left;
+    margin-left:10px;
+    width:56px;
+    text-align: center;
+}

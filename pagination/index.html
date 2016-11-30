@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>    
+	
+<div class="cu_page"></div>
+<script src="js/jquery-1.9.1.min.js"></script>
+<script src="js/pagination.js"></script>
+<!-- <script src="js/bootstrap.min.js"></script> -->
+<script>
+    $(function(){
+        var total_page = 20;
+        var cur_page = 1;
+		
+        var url = "index";
+        var g_method = "get";
+        if(total_page > 0)
+            create_page(cur_page,total_page,url,g_method);
+    });
+</script>
