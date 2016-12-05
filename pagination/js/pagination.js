@@ -174,7 +174,7 @@ function on_next_click(total_page){
     }else{
         var cur_pages = $("#" + "global_cur_page_"+page_id).val();
         if(cur_pages < total_page){
-            var next_page = parseInt(cur_pages) - 1;
+            var next_page = parseInt(cur_pages) + 1;
             $("#" + page_id + "_page_" + cur_pages).removeClass();
             $("#" + page_id + "_page_" + next_page).addClass("cuur");
             $("#" + "global_cur_page_" + page_id).val(next_page);
